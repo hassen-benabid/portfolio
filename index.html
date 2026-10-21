@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hassen BEN ABID &mdash; Senior Full-stack Engineer</title>
+<meta name="description" content="Senior Full-stack Engineer (5+ years) scaling early-stage SaaS MVPs into stable, revenue-generating platforms. React, Node.js, Python." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<div class="aurora">
+  <span class="orb orb-1"></span>
+  <span class="orb orb-2"></span>
+  <span class="orb orb-3"></span>
+</div>
+<div class="grid-overlay"></div>
+
+<header class="nav" id="nav">
+  <a href="#home" class="brand">
+    <span class="brand-mark">HB</span>
+    <span class="brand-text">Hassen<span>.</span></span>
+  </a>
+  <nav class="nav-links">
+    <a href="#work">Products</a>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="assets/HassenBA.pdf" download="Hassen-BEN-ABID-CV.pdf" class="nav-cta">
+    <svg class="btn-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/></svg>
+    Download CV
+  </a>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu">
+    <span></span><span></span>
+  </button>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-copy">
+      <div class="hero-badge reveal">
+        <span class="pulse"></span> Available for founding & senior roles
+      </div>
+
+      <h1 class="hero-title reveal">
+        <span class="line">Hassen</span>
+        <span class="line gradient">BEN ABID</span>
+      </h1>
+
+      <p class="hero-role reveal">
+        Senior Full-stack Engineer
+        <span class="role-sep">/</span>
+        <span class="rotator" id="rotator">React</span>
+      </p>
+
+      <p class="hero-desc reveal">
+        Product-focused engineer (5+ years) turning early-stage SaaS MVPs into
+        stable, revenue-generating platforms. I bridge complex technical
+        architecture and business growth.
+      </p>
+
+      <div class="hero-actions reveal">
+        <a href="assets/HassenBA.pdf" download="Hassen-BEN-ABID-CV.pdf" class="btn btn-primary">
+          <svg class="btn-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/></svg>
+          Download CV
+        </a>
+        <a href="#contact" class="btn btn-ghost">Work with me <span class="arrow">&rarr;</span></a>
+        <a href="https://www.linkedin.com/in/ben-abid-hassen" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn &#8599;</a>
+      </div>
+
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="stat-num" data-count="5">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Years experience</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="12">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Technologies used</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="3">0</span><span class="stat-suffix"></span>
+          <span class="stat-label">Industries served</span>
+        </div>
+      </div>
+      </div>
+
+      <div class="hero-portrait reveal">
+        <div class="portrait-halo"></div>
+        <div class="portrait-frame">
+          <img src="assets/me.png" alt="Portrait of Hassen BEN ABID" />
+        </div>
+        <div class="portrait-chip">
+          <span class="pulse"></span> Tunisia &middot; Remote EU / US
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <span class="scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <div class="section-head reveal">
+      <span class="eyebrow">01 &mdash; Selected Work</span>
+      <h2>Products I've <em>shipped</em>.</h2>
+    </div>
+
+    <div class="work-grid">
+      <article class="work-card reveal" data-work>
+        <div class="work-shot">
+          <div class="work-switch">
+            <button class="work-tab active" data-view="home" type="button">Home site</button>
+            <button class="work-tab" data-view="portal" type="button">User portal</button>
+          </div>
+
+          <div class="work-view active" data-view="home">
+            <div class="gallery">
+              <div class="gallery-track">
+                <img src="assets/caseblink/home_1.png" alt="CaseBlink home &mdash; hero" loading="lazy" />
+                <img src="assets/caseblink/home_2.png" alt="CaseBlink home &mdash; capabilities" loading="lazy" />
+                <img src="assets/caseblink/home_3.png" alt="CaseBlink home &mdash; product" loading="lazy" />
+              </div>
+              <button class="gallery-nav prev" type="button" aria-label="Previous">&lsaquo;</button>
+              <button class="gallery-nav next" type="button" aria-label="Next">&rsaquo;</button>
+              <div class="gallery-dots"></div>
+              <button class="gallery-expand" type="button" aria-label="Expand screenshot">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 15v5h-5M15 4h5v5M9 20H4v-5"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="work-view" data-view="portal">
+            <div class="gallery-empty">
+              <span class="ge-icon">&#128274;</span>
+              <h4>User portal</h4>
+              <p>Portal screens coming soon.</p>
+            </div>
+          </div>
+
+          <span class="work-url" data-home="caseblink.com" data-portal="app.caseblink.com">caseblink.com</span>
+        </div>
+        <div class="work-body">
+          <div class="work-top">
+            <h3>CaseBlink</h3>
+            <span class="work-kind">Marketing + SaaS app</span>
+          </div>
+          <p>AI platform for immigration professionals. Founding engineer scaling an MVP to a production platform serving 100+ law firms.</p>
+          <div class="tl-tags"><span>React</span><span>Python</span><span>Flask</span><span>ML</span></div>
+          <div class="work-links">
+            <a href="https://www.caseblink.com" target="_blank" rel="noopener">Home site &#8599;</a>
+            <a href="https://app.caseblink.com" target="_blank" rel="noopener">User portal &#8599;</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="work-card reveal" data-work>
+        <div class="work-shot">
+          <div class="work-switch">
+            <button class="work-tab active" data-view="home" type="button">Home site</button>
+            <button class="work-tab" data-view="portal" type="button">User portal</button>
+          </div>
+
+          <div class="work-view active" data-view="home">
+            <div class="gallery">
+              <div class="gallery-track">
+                <img src="assets/coorest/home_1.png" alt="Coorest home &mdash; hero" loading="lazy" />
+              </div>
+              <button class="gallery-nav prev" type="button" aria-label="Previous">&lsaquo;</button>
+              <button class="gallery-nav next" type="button" aria-label="Next">&rsaquo;</button>
+              <div class="gallery-dots"></div>
+              <button class="gallery-expand" type="button" aria-label="Expand screenshot">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 15v5h-5M15 4h5v5M9 20H4v-5"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="work-view" data-view="portal">
+            <div class="gallery">
+              <div class="gallery-track">
+                <img src="assets/coorest/user_portal_1.png" alt="Coorest DApp portal &mdash; dashboard" loading="lazy" />
+                <img src="assets/coorest/user_portal_2.png" alt="Coorest DApp portal &mdash; exchange" loading="lazy" />
+                <img src="assets/coorest/user_portal_3.png" alt="Coorest DApp portal &mdash; projects" loading="lazy" />
+              </div>
+              <button class="gallery-nav prev" type="button" aria-label="Previous">&lsaquo;</button>
+              <button class="gallery-nav next" type="button" aria-label="Next">&rsaquo;</button>
+              <div class="gallery-dots"></div>
+              <button class="gallery-expand" type="button" aria-label="Expand screenshot">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 15v5h-5M15 4h5v5M9 20H4v-5"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <span class="work-url" data-home="coorest.eu" data-portal="coorest.io/dapp">coorest.eu</span>
+        </div>
+        <div class="work-body">
+          <div class="work-top">
+            <h3>Coorest</h3>
+            <span class="work-kind">Marketing + DApp portal</span>
+          </div>
+          <p>Carbon-offset &amp; reforestation platform. Self-hosted backend migration, real-time sync, and a 25% faster delivery cadence.</p>
+          <div class="tl-tags"><span>Node.js</span><span>React</span><span>Infra</span></div>
+          <div class="work-links">
+            <a href="https://www.coorest.eu" target="_blank" rel="noopener">Home site &#8599;</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="work-card reveal" data-work>
+        <div class="work-shot">
+          <div class="work-switch">
+            <button class="work-tab active" data-view="home" type="button">Home site</button>
+            <button class="work-tab" data-view="portal" type="button">User portal</button>
+            <button class="work-tab" data-view="mobile" type="button">Mobile</button>
+          </div>
+
+          <div class="work-view active" data-view="home">
+            <div class="gallery">
+              <div class="gallery-track">
+                <img src="assets/hoopooh/home_1.png" alt="Hoopooh home &mdash; hero" loading="lazy" />
+              </div>
+              <button class="gallery-nav prev" type="button" aria-label="Previous">&lsaquo;</button>
+              <button class="gallery-nav next" type="button" aria-label="Next">&rsaquo;</button>
+              <div class="gallery-dots"></div>
+              <button class="gallery-expand" type="button" aria-label="Expand screenshot">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 15v5h-5M15 4h5v5M9 20H4v-5"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="work-view" data-view="portal">
+            <div class="gallery">
+              <div class="gallery-track">
+                <img src="assets/hoopooh/user_portal_1.png" alt="Hoopooh portal &mdash; ask hoopooh" loading="lazy" />
+                <img src="assets/hoopooh/user_portal_2.png" alt="Hoopooh portal &mdash; dashboard" loading="lazy" />
+                <img src="assets/hoopooh/user_portal_3.png" alt="Hoopooh portal &mdash; reports" loading="lazy" />
+              </div>
+              <button class="gallery-nav prev" type="button" aria-label="Previous">&lsaquo;</button>
+              <button class="gallery-nav next" type="button" aria-label="Next">&rsaquo;</button>
+              <div class="gallery-dots"></div>
+              <button class="gallery-expand" type="button" aria-label="Expand screenshot">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 15v5h-5M15 4h5v5M9 20H4v-5"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="work-view" data-view="mobile" data-kind="mobile">
+            <div class="gallery">
+              <div class="gallery-track">
+                <img src="assets/hoopooh/mobile_1.webp" alt="Hoopooh mobile app &mdash; home" loading="lazy" />
+                <img src="assets/hoopooh/mobile_2.webp" alt="Hoopooh mobile app &mdash; daily updates" loading="lazy" />
+                <img src="assets/hoopooh/mobile_3.webp" alt="Hoopooh mobile app &mdash; milestones" loading="lazy" />
+              </div>
+              <button class="gallery-nav prev" type="button" aria-label="Previous">&lsaquo;</button>
+              <button class="gallery-nav next" type="button" aria-label="Next">&rsaquo;</button>
+              <div class="gallery-dots"></div>
+              <button class="gallery-expand" type="button" aria-label="Expand screenshot">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 15v5h-5M15 4h5v5M9 20H4v-5"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <span class="work-url" data-home="hoopooh.com" data-portal="app.hoopooh.com" data-mobile="hoopooh mobile app">hoopooh.com</span>
+        </div>
+        <div class="work-body">
+          <div class="work-top">
+            <h3>Hoopooh</h3>
+            <span class="work-kind">Marketing + educator app</span>
+          </div>
+          <p>AI copilot for early-childhood educators. NestJS APIs, AWS media pipeline, and real-time comms across React &amp; Flutter.</p>
+          <div class="tl-tags"><span>NestJS</span><span>AWS</span><span>Flutter</span></div>
+          <div class="work-links">
+            <a href="https://www.hoopooh.com/en" target="_blank" rel="noopener">Home site &#8599;</a>
+            <a href="https://app.hoopooh.com" target="_blank" rel="noopener">User portal &#8599;</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>React</span><span class="dot"></span>
+      <span>Next.js</span><span class="dot"></span>
+      <span>Node.js</span><span class="dot"></span>
+      <span>NestJS</span><span class="dot"></span>
+      <span>Python</span><span class="dot"></span>
+      <span>Flask</span><span class="dot"></span>
+      <span>PostgreSQL</span><span class="dot"></span>
+      <span>Docker</span><span class="dot"></span>
+      <span>Kubernetes</span><span class="dot"></span>
+      <span>AWS</span><span class="dot"></span>
+      <span>TypeScript</span><span class="dot"></span>
+      <span>Tailwind</span><span class="dot"></span>
+      <span>React</span><span class="dot"></span>
+      <span>Next.js</span><span class="dot"></span>
+      <span>Node.js</span><span class="dot"></span>
+      <span>NestJS</span><span class="dot"></span>
+      <span>Python</span><span class="dot"></span>
+      <span>Flask</span><span class="dot"></span>
+      <span>PostgreSQL</span><span class="dot"></span>
+      <span>Docker</span><span class="dot"></span>
+      <span>Kubernetes</span><span class="dot"></span>
+      <span>AWS</span><span class="dot"></span>
+      <span>TypeScript</span><span class="dot"></span>
+      <span>Tailwind</span><span class="dot"></span>
+    </div>
+  </div>
+
+  <!-- ABOUT / HIGHLIGHTS -->
+  <section class="section" id="about">
+    <div class="section-head reveal">
+      <span class="eyebrow">02 &mdash; Profile</span>
+      <h2>Engineering that moves <em>the business</em>.</h2>
+    </div>
+
+    <div class="bento">
+      <article class="card card-wide reveal">
+        <h3>Founding-hire mindset</h3>
+        <p>
+          Comfortable with ambiguity. I take products from rough idea to
+          production, set engineering conventions, and build the documentation
+          and foundations a growing team can rely on.
+        </p>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-icon">&#9881;</div>
+        <h3>Automation</h3>
+        <p>I automate the repetitive parts &mdash; pipelines, integrations, and internal tooling &mdash; so teams can focus on product.</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-icon">&#9889;</div>
+        <h3>Performance</h3>
+        <p>I profile before I optimize: backend migrations, caching, and query tuning that keep products fast as usage grows.</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-icon">&#128640;</div>
+        <h3>Scale &amp; stability</h3>
+        <p>I refactor incrementally, add tests around the risky parts, and make releases boring &mdash; fewer regressions, calmer on-call.</p>
+      </article>
+
+      <article class="card card-wide card-accent reveal">
+        <h3>Where I sit today</h3>
+        <p>
+          Remote across EU / US time zones, based in Tunisia. I partner with
+          founders and product teams to ship quickly, keep technical debt in
+          check, and leave codebases easier to work with.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="section-head reveal">
+      <span class="eyebrow">03 &mdash; Experience</span>
+      <h2>Where I've <em>built</em>.</h2>
+    </div>
+
+    <div class="timeline">
+      <article class="tl-item reveal">
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-top">
+            <h3>Founding Full-stack Engineer</h3>
+            <span class="tl-date">Oct 2023 &ndash; Jul 2026</span>
+          </div>
+          <p class="tl-company">CaseBlink <span class="tl-loc">Tunis, Tunisia</span></p>
+          <ul class="tl-list">
+            <li>Established the technical foundation as first engineering hire, transitioning the MVP to a production-ready platform supporting 100+ paying law firm partnerships.</li>
+            <li>Built foundations and documentation supporting team growth from 1 to 8 engineers.</li>
+            <li>Engineered an automated immigration filing engine cutting case prep time by 70% and enabling a B2B pivot.</li>
+            <li>Architected the integration between core API and ML engine to reliably automate processing of thousands of legal documents.</li>
+            <li>Refactored the React and Python (Flask) codebase, reducing production errors by 40%.</li>
+          </ul>
+          <div class="tl-tags">
+            <span>React</span><span>Python</span><span>Flask</span><span>API</span><span>ML</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="tl-item reveal">
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-top">
+            <h3>Full-stack Engineer</h3>
+            <span class="tl-date">Aug 2022 &ndash; Oct 2023</span>
+          </div>
+          <p class="tl-company">Coorest <span class="tl-loc">Remote</span></p>
+          <ul class="tl-list">
+            <li>Drove a critical backend migration from managed service to custom self-hosted infrastructure using Node.js &mdash; 40% faster API responses and reduced overhead.</li>
+            <li>Architected a real-time data sync layer in React handling high-frequency updates, improving frontend performance and reducing client-side memory usage.</li>
+            <li>Led a modular codebase refactor to eliminate technical debt, increasing feature delivery speed by 25%.</li>
+          </ul>
+          <div class="tl-tags">
+            <span>Node.js</span><span>React</span><span>Real-time</span><span>Infra</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="tl-item reveal">
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-top">
+            <h3>Full-stack Engineer <span class="promo">promoted from Intern</span></h3>
+            <span class="tl-date">May 2021 &ndash; Aug 2022</span>
+          </div>
+          <p class="tl-company">Hoopooh <span class="tl-loc">Remote</span></p>
+          <ul class="tl-list">
+            <li>Developed scalable RESTful APIs with NestJS to synchronize data across React and Flutter apps.</li>
+            <li>Built a media optimization pipeline using AWS Elastic Transcoder, S3, and CloudFront &mdash; cut media load times by 50%.</li>
+            <li>Integrated real-time communication via Socket.io and Firebase Cloud Messaging.</li>
+          </ul>
+          <div class="tl-tags">
+            <span>NestJS</span><span>AWS</span><span>Flutter</span><span>Socket.io</span><span>FCM</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-head reveal">
+      <span class="eyebrow">04 &mdash; Skills</span>
+      <h2>The <em>stack</em> I ship with.</h2>
+    </div>
+
+    <div class="skills-grid">
+      <article class="skill-card reveal">
+        <span class="skill-num">01</span>
+        <h3>Frontend</h3>
+        <div class="chips">
+          <span>React</span><span>Next.js</span><span>Redux / Context API</span>
+          <span>Tailwind CSS</span><span>Subframe</span><span>Responsive Design</span>
+        </div>
+      </article>
+
+      <article class="skill-card reveal">
+        <span class="skill-num">02</span>
+        <h3>Backend</h3>
+        <div class="chips">
+          <span>Node.js</span><span>NestJS</span><span>Python (Flask)</span>
+          <span>RESTful API Design</span>
+        </div>
+      </article>
+
+      <article class="skill-card reveal">
+        <span class="skill-num">03</span>
+        <h3>Database &amp; Data</h3>
+        <div class="chips">
+          <span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span>
+          <span>Firebase</span><span>Redis (Caching)</span>
+        </div>
+      </article>
+
+      <article class="skill-card reveal">
+        <span class="skill-num">04</span>
+        <h3>Infrastructure &amp; DevOps</h3>
+        <div class="chips">
+          <span>AWS</span><span>Google Cloud</span><span>Docker</span>
+          <span>Kubernetes</span><span>CI/CD Pipelines</span><span>Automated Testing</span>
+        </div>
+      </article>
+
+      <article class="skill-card reveal">
+        <span class="skill-num">05</span>
+        <h3>Leadership &amp; Product</h3>
+        <div class="chips">
+          <span>Agile / Scrum</span><span>Technical Documentation</span>
+          <span>Technical Debt Management</span><span>Mentoring</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="section-head reveal">
+      <span class="eyebrow">05 &mdash; Education</span>
+      <h2>Foundations &amp; <em>exchange</em>.</h2>
+    </div>
+
+    <div class="edu-grid">
+      <article class="edu-card reveal">
+        <span class="edu-year">2019 &ndash; 2023</span>
+        <h3>Software Engineering Diploma</h3>
+        <p>Private High School of Engineering and Technology (ESPRIT)</p>
+      </article>
+
+      <article class="edu-card reveal">
+        <span class="edu-year">2017 &ndash; 2019</span>
+        <h3>Pre-Engineering Cycle</h3>
+        <p>Higher Institute of Applied Sciences and Technology (ISSATso) &mdash; Sousse</p>
+      </article>
+
+      <article class="edu-card reveal">
+        <span class="edu-year">2021</span>
+        <h3>Exchange Student</h3>
+        <p>Thomas Jefferson Scholarship Program &mdash; Stephen F. Austin State University</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="contact-inner reveal">
+      <span class="eyebrow">06 &mdash; Contact</span>
+      <h2>Let's build something <em>that scales</em>.</h2>
+      <p class="contact-sub">
+        Open to founding engineering and senior full-stack roles across EU / US
+        time zones. Remote, from Tunisia.
+      </p>
+
+      <div class="contact-actions">
+        <a href="mailto:b.abidhassen@gmail.com" class="btn btn-primary">b.abidhassen@gmail.com</a>
+        <a href="tel:+21695073245" class="btn btn-ghost">+216 95 073 245</a>
+        <a href="assets/HassenBA.pdf" download="Hassen-BEN-ABID-CV.pdf" class="btn btn-ghost">
+          <svg class="btn-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/></svg>
+          Download CV
+        </a>
+      </div>
+
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/ben-abid-hassen" target="_blank" rel="noopener">LinkedIn &#8599;</a>
+        <span class="dot-sep"></span>
+        <span>Remote (EU / US Time Zones) | Tunisia</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>&copy; 2027 Hassen BEN ABID</span>
+  <span>Designed &amp; built from scratch.</span>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Screenshot viewer">
+  <div class="lb-bar">
+    <span class="lb-caption" id="lbCaption"></span>
+    <button class="lb-close" id="lbClose" type="button" aria-label="Close">&times;</button>
+  </div>
+  <button class="lb-nav lb-prev" id="lbPrev" type="button" aria-label="Previous">&lsaquo;</button>
+  <img class="lb-img" id="lbImg" alt="Expanded screenshot" />
+  <button class="lb-nav lb-next" id="lbNext" type="button" aria-label="Next">&rsaquo;</button>
+  <div class="lb-dots" id="lbDots"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
